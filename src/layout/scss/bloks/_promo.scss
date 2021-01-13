@@ -1,0 +1,40 @@
+.promo {
+    background: url('/src/assets/images/first-screen/first-screen.jpg') center (center/cover) no-repeat;
+    min-height: 850px;
+    padding: 30px 0 ;
+
+    &__info {
+        position: absolute;
+        min-height: 470px;
+        top: 270px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__address_block   {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+
+    &__address {
+        display: flex;
+        align-items: center;
+
+        .location, .phone {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #FFFFFF;
+
+            margin-left: 14px;
+        }
+    
+    }
+}

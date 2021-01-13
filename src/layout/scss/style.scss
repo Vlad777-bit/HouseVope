@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;400;700&display=swap');
+@import '../scss/bloks/header';
+@import '../scss/bloks/promo';
+@import '../scss/bloks/titles';
+@import '../scss/bloks/icons';
+
+
+
+* {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: relative;
+    max-width: 1110px;
+    margin: 0 auto;
+}

@@ -1,0 +1,13 @@
+.icon {
+    &-small {
+        margin-top: 100px;
+        width: 40px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+
+        img {
+            width: 100%;
+        }
+    }
+}
